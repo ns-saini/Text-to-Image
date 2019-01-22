@@ -4,10 +4,6 @@
 
 This is an experimental tensorflow implementation of synthesizing images from captions using [Skip Thought Vectors][1]. The images are synthesized using the GAN-CLS Algorithm from the paper [Generative Adversarial Text-to-Image Synthesis][2]. This implementation is built on top of the excellent [DCGAN in Tensorflow][3]. The following is the model architecture. The blue bars represent the Skip Thought Vectors for the captions.
 
-![Model architecture](http://i.imgur.com/dNl2HkZ.jpg)
-
-Image Source : [Generative Adversarial Text-to-Image Synthesis][2] Paper
-
 ## Requirements
 - Python 2.7.6
 - [Tensorflow][4]
